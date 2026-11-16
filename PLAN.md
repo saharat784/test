@@ -33,10 +33,10 @@
 ## 4. Task Prioritization & Execution Plan
 
 ### P0: Must-Have (Core MVP — เป้าหมาย: เสร็จสมบูรณ์ 100%)
-- [/] **Setup:** ขึ้นโครงโปรเจกต์ Backend (FastAPI + SQLite) และ Frontend (React + Tailwind) พร้อมตั้งค่า CORS
-- [/] **Backend Core:** สร้างตาราง `bookings` และ API `GET`, `POST`, `PATCH /cancel`
-- [/] **Core Business Logic (Overlap Detection):** เขียนเงื่อนไขตรวจสอบเวลาทับซ้อนสำหรับห้องเดียวกันเฉพาะรายการที่ `status == 'CONFIRMED'` (`new_start < existing_end AND new_end > existing_start`)
-- [/] **Frontend Core:** สร้างหน้าจอหลัก 2 ส่วน (ฟอร์มสร้างการจอง + ตารางแสดงรายการจองและปุ่มยกเลิก) เชื่อมต่อ API ให้ใช้งานได้จริง
+- [x] **Setup:** ขึ้นโครงโปรเจกต์ Backend (FastAPI + SQLite) และ Frontend (React + Tailwind) พร้อมตั้งค่า CORS
+- [ ] **Backend Core:** สร้างตาราง `bookings` และ API `GET`, `POST`, `PATCH /cancel`
+- [ ] **Core Business Logic (Overlap Detection):** เขียนเงื่อนไขตรวจสอบเวลาทับซ้อนสำหรับห้องเดียวกันเฉพาะรายการที่ `status == 'CONFIRMED'` (`new_start < existing_end AND new_end > existing_start`)
+- [ ] **Frontend Core:** สร้างหน้าจอหลัก 2 ส่วน (ฟอร์มสร้างการจอง + ตารางแสดงรายการจองและปุ่มยกเลิก) เชื่อมต่อ API ให้ใช้งานได้จริง
 
 ### P1: Should-Have (Validation & UX Resilience)
 - [ ] **Input & Boundary Validation:**
